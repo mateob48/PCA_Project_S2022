@@ -1,0 +1,75 @@
+[1/16] cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "." /I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" /I ".\interface" /I "C:\Program Files\MATLAB\R2022a\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H   interface\_coder_BaumWelch_info.cpp /Fobuild\win64\_coder_BaumWelch_info.obj
+_coder_BaumWelch_info.cpp
+[2/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" MWCUBLASUtils.cpp -o build\win64\MWCUBLASUtils.obj
+MWCUBLASUtils.cpp
+[3/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" MWCUSOLVERUtils.cpp -o build\win64\MWCUSOLVERUtils.obj
+MWCUSOLVERUtils.cpp
+[4/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" cpp_mexapi_version.cpp -o build\win64\cpp_mexapi_version.obj
+cpp_mexapi_version.cpp
+[5/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" rt_nonfinite.cu -o build\win64\rt_nonfinite.obj
+rt_nonfinite.cu
+[6/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" BaumWelch_data.cu -o build\win64\BaumWelch_data.obj
+BaumWelch_data.cu
+[7/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" div.cu -o build\win64\div.obj
+div.cu
+[8/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" toc.cu -o build\win64\toc.obj
+toc.cu
+[9/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_BaumWelch_api.cu -o build\win64\_coder_BaumWelch_api.obj
+_coder_BaumWelch_api.cu
+[10/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" tic.cu -o build\win64\tic.obj
+tic.cu
+[11/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" BaumWelch_terminate.cu -o build\win64\BaumWelch_terminate.obj
+BaumWelch_terminate.cu
+[12/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_BaumWelch_mex.cu -o build\win64\_coder_BaumWelch_mex.obj
+_coder_BaumWelch_mex.cu
+[13/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" BaumWelch_emxutil.cu -o build\win64\BaumWelch_emxutil.obj
+BaumWelch_emxutil.cu
+[14/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" BaumWelch_initialize.cu -o build\win64\BaumWelch_initialize.obj
+BaumWelch_initialize.cu
+[15/16] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=BaumWelch_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" BaumWelch.cu -o build\win64\BaumWelch.obj
+BaumWelch.cu
+[16/16] nvcc -Xlinker /nologo -Xlinker /manifest -Xlinker /DLL -L"C:\Program Files\MATLAB\R2022a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib libMatlabEngine.lib   -L"C:\Program Files\MATLAB\R2022a\extern\lib\win64\microsoft" libmwlapack.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib -arch sm_35  -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64" cudart.lib cublas.lib cusolver.lib cufft.lib curand.lib cusparse.lib -Xnvlink -w  -Wno-deprecated-gpu-targets -Xlinker /NODEFAULTLIB:libcmt.lib -o BaumWelch_mex.mexw64 build\win64\MWCUBLASUtils.obj build\win64\MWCUSOLVERUtils.obj build\win64\BaumWelch_data.obj build\win64\rt_nonfinite.obj build\win64\BaumWelch_initialize.obj build\win64\BaumWelch_terminate.obj build\win64\BaumWelch.obj build\win64\tic.obj build\win64\toc.obj build\win64\_coder_BaumWelch_api.obj build\win64\_coder_BaumWelch_mex.obj build\win64\div.obj build\win64\BaumWelch_emxutil.obj build\win64\_coder_BaumWelch_info.obj build\win64\cpp_mexapi_version.obj
+libmx.lib
+libmex.lib
+libmat.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+libMatlabDataArray.lib
+libMatlabEngine.lib
+libmwlapack.lib
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwmathutil.lib
+cudart.lib
+cublas.lib
+cusolver.lib
+cufft.lib
+curand.lib
+cusparse.lib
+MWCUBLASUtils.obj
+MWCUSOLVERUtils.obj
+BaumWelch_data.obj
+rt_nonfinite.obj
+BaumWelch_initialize.obj
+BaumWelch_terminate.obj
+BaumWelch.obj
+tic.obj
+toc.obj
+_coder_BaumWelch_api.obj
+_coder_BaumWelch_mex.obj
+div.obj
+BaumWelch_emxutil.obj
+_coder_BaumWelch_info.obj
+cpp_mexapi_version.obj
+   Creating library BaumWelch_mex.lib and object BaumWelch_mex.exp
