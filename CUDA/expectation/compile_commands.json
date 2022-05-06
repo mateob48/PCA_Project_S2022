@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" expectation_data.cu -o build\\win64\\expectation_data.obj",
+    "file": "expectation_data.cu",
+    "output": "build/win64/expectation_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" rt_nonfinite.cu -o build\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.cu",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" expectation_initialize.cu -o build\\win64\\expectation_initialize.obj",
+    "file": "expectation_initialize.cu",
+    "output": "build/win64/expectation_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" expectation_terminate.cu -o build\\win64\\expectation_terminate.obj",
+    "file": "expectation_terminate.cu",
+    "output": "build/win64/expectation_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" expectation.cu -o build\\win64\\expectation.obj",
+    "file": "expectation.cu",
+    "output": "build/win64/expectation.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" interface\\_coder_expectation_api.cu -o build\\win64\\_coder_expectation_api.obj",
+    "file": "interface/_coder_expectation_api.cu",
+    "output": "build/win64/_coder_expectation_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" interface\\_coder_expectation_mex.cu -o build\\win64\\_coder_expectation_mex.obj",
+    "file": "interface/_coder_expectation_mex.cu",
+    "output": "build/win64/_coder_expectation_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" expectation_emxutil.cu -o build\\win64\\expectation_emxutil.obj",
+    "file": "expectation_emxutil.cu",
+    "output": "build/win64/expectation_emxutil.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H   interface\\_coder_expectation_info.cpp /Fobuild\\win64\\_coder_expectation_info.obj",
+    "file": "interface/_coder_expectation_info.cpp",
+    "output": "build/win64/_coder_expectation_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\\codegen\\mex\\expectation",
+    "command": "nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler \"/wd 4819\" -Xcompiler \"/MD\" -Xcudafe \"--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type\" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler \"/EHa\" -Xcompiler \"/utf-8\" -I \".\" -I \"C:\\Users\\mateo\\OneDrive\\Documents\\Mateo\\Project PAC\\Code\\CUDA\" -I \".\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" -I \".\" -DMW_CUDA_ARCH=350 -DMODEL=expectation_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I \"C:\\Program Files\\MATLAB\\R2022a/simulink/include\" -I \"C:\\Program Files\\MATLAB\\R2022a/toolbox/shared/simtargets\" cpp_mexapi_version.cpp -o build\\win64\\cpp_mexapi_version.obj",
+    "file": "cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.obj"
+  }
+]
