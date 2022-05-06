@@ -1,0 +1,63 @@
+[1/12] cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "." /I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" /I ".\interface" /I "C:\Program Files\MATLAB\R2022a\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H   interface\_coder_new_mvnpdf_info.cpp /Fobuild\win64\_coder_new_mvnpdf_info.obj
+_coder_new_mvnpdf_info.cpp
+[2/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" MWCUBLASUtils.cpp -o build\win64\MWCUBLASUtils.obj
+MWCUBLASUtils.cpp
+[3/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" cpp_mexapi_version.cpp -o build\win64\cpp_mexapi_version.obj
+cpp_mexapi_version.cpp
+[4/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" MWCUSOLVERUtils.cpp -o build\win64\MWCUSOLVERUtils.obj
+MWCUSOLVERUtils.cpp
+[5/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" new_mvnpdf_data.cu -o build\win64\new_mvnpdf_data.obj
+new_mvnpdf_data.cu
+[6/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" rt_nonfinite.cu -o build\win64\rt_nonfinite.obj
+rt_nonfinite.cu
+[7/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_new_mvnpdf_api.cu -o build\win64\_coder_new_mvnpdf_api.obj
+_coder_new_mvnpdf_api.cu
+[8/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_new_mvnpdf_mex.cu -o build\win64\_coder_new_mvnpdf_mex.obj
+_coder_new_mvnpdf_mex.cu
+[9/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" new_mvnpdf_initialize.cu -o build\win64\new_mvnpdf_initialize.obj
+new_mvnpdf_initialize.cu
+[10/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" new_mvnpdf_terminate.cu -o build\win64\new_mvnpdf_terminate.obj
+new_mvnpdf_terminate.cu
+[11/12] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMW_CUDA_ARCH=350 -DMODEL=new_mvnpdf_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" new_mvnpdf.cu -o build\win64\new_mvnpdf.obj
+new_mvnpdf.cu
+[12/12] nvcc -Xlinker /nologo -Xlinker /manifest -Xlinker /DLL -L"C:\Program Files\MATLAB\R2022a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib libMatlabEngine.lib   -L"C:\Program Files\MATLAB\R2022a\extern\lib\win64\microsoft" libmwlapack.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib -arch sm_35  -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64" cudart.lib cublas.lib cusolver.lib cufft.lib curand.lib cusparse.lib -Xnvlink -w  -Wno-deprecated-gpu-targets -Xlinker /NODEFAULTLIB:libcmt.lib -o new_mvnpdf_mex.mexw64 build\win64\MWCUSOLVERUtils.obj build\win64\MWCUBLASUtils.obj build\win64\new_mvnpdf_data.obj build\win64\rt_nonfinite.obj build\win64\new_mvnpdf_initialize.obj build\win64\new_mvnpdf_terminate.obj build\win64\new_mvnpdf.obj build\win64\_coder_new_mvnpdf_api.obj build\win64\_coder_new_mvnpdf_mex.obj build\win64\_coder_new_mvnpdf_info.obj build\win64\cpp_mexapi_version.obj
+libmx.lib
+libmex.lib
+libmat.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+libMatlabDataArray.lib
+libMatlabEngine.lib
+libmwlapack.lib
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwmathutil.lib
+cudart.lib
+cublas.lib
+cusolver.lib
+cufft.lib
+curand.lib
+cusparse.lib
+MWCUSOLVERUtils.obj
+MWCUBLASUtils.obj
+new_mvnpdf_data.obj
+rt_nonfinite.obj
+new_mvnpdf_initialize.obj
+new_mvnpdf_terminate.obj
+new_mvnpdf.obj
+_coder_new_mvnpdf_api.obj
+_coder_new_mvnpdf_mex.obj
+_coder_new_mvnpdf_info.obj
+cpp_mexapi_version.obj
+   Creating library new_mvnpdf_mex.lib and object new_mvnpdf_mex.exp
