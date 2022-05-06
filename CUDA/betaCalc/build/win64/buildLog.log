@@ -1,0 +1,56 @@
+[1/10] cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "." /I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" /I ".\interface" /I "C:\Program Files\MATLAB\R2022a\extern\include" /I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H   interface\_coder_betaCalc_info.cpp /Fobuild\win64\_coder_betaCalc_info.obj
+_coder_betaCalc_info.cpp
+[2/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" cpp_mexapi_version.cpp -o build\win64\cpp_mexapi_version.obj
+cpp_mexapi_version.cpp
+[3/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" rt_nonfinite.cu -o build\win64\rt_nonfinite.obj
+rt_nonfinite.cu
+[4/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" betaCalc_terminate.cu -o build\win64\betaCalc_terminate.obj
+betaCalc_terminate.cu
+[5/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" betaCalc.cu -o build\win64\betaCalc.obj
+betaCalc.cu
+[6/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" betaCalc_initialize.cu -o build\win64\betaCalc_initialize.obj
+betaCalc_initialize.cu
+[7/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" betaCalc_data.cu -o build\win64\betaCalc_data.obj
+betaCalc_data.cu
+[8/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_betaCalc_api.cu -o build\win64\_coder_betaCalc_api.obj
+_coder_betaCalc_api.cu
+[9/10] nvcc -c -rdc=true -Wno-deprecated-gpu-targets -Xcompiler "/wd 4819" -Xcompiler "/MD" -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE --no-exceptions -Xcompiler "/EHa" -Xcompiler "/utf-8" -I "." -I "C:\Users\mateo\OneDrive\Documents\Mateo\Project PAC\Code\CUDA" -I ".\interface" -I "C:\Program Files\MATLAB\R2022a\extern\include" -I "." -DMW_CUDA_ARCH=350 -DMODEL=betaCalc_mex -DMW_NEEDS_VERSION_H  -arch sm_35  -I "C:\Program Files\MATLAB\R2022a/simulink/include" -I "C:\Program Files\MATLAB\R2022a/toolbox/shared/simtargets" interface\_coder_betaCalc_mex.cu -o build\win64\_coder_betaCalc_mex.obj
+_coder_betaCalc_mex.cu
+[10/10] nvcc -Xlinker /nologo -Xlinker /manifest -Xlinker /DLL -L"C:\Program Files\MATLAB\R2022a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib libMatlabEngine.lib   libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib -arch sm_35  -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64" cudart.lib cublas.lib cusolver.lib cufft.lib curand.lib cusparse.lib -Xnvlink -w  -Wno-deprecated-gpu-targets -Xlinker /NODEFAULTLIB:libcmt.lib -o betaCalc_mex.mexw64 build\win64\betaCalc_data.obj build\win64\rt_nonfinite.obj build\win64\betaCalc_initialize.obj build\win64\betaCalc_terminate.obj build\win64\betaCalc.obj build\win64\_coder_betaCalc_api.obj build\win64\_coder_betaCalc_mex.obj build\win64\_coder_betaCalc_info.obj build\win64\cpp_mexapi_version.obj
+libmx.lib
+libmex.lib
+libmat.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+libMatlabDataArray.lib
+libMatlabEngine.lib
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwmathutil.lib
+cudart.lib
+cublas.lib
+cusolver.lib
+cufft.lib
+curand.lib
+cusparse.lib
+betaCalc_data.obj
+rt_nonfinite.obj
+betaCalc_initialize.obj
+betaCalc_terminate.obj
+betaCalc.obj
+_coder_betaCalc_api.obj
+_coder_betaCalc_mex.obj
+_coder_betaCalc_info.obj
+cpp_mexapi_version.obj
+   Creating library betaCalc_mex.lib and object betaCalc_mex.exp
